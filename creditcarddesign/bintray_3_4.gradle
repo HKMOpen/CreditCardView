@@ -5,7 +5,7 @@ publish {
     userOrg = 'jjhesk'
     groupId = 'com.hkm.ui'
     artifactId = 'creditcard-view'
-    version = '2.0.2'
+    version = '2.0.3'
     uploadName = 'creditcard-view'
     description = "Its an advanced payment holder, lightweight, yet covers alot of vendors."
     website = 'https://github.com/HKMOpen/CreditCardView'
