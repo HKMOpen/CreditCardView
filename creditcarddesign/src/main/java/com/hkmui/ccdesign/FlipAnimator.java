@@ -8,24 +8,15 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
 public class FlipAnimator extends Animation {
-	
 	public static final int DIRECTION_X = 1, DIRECTION_Y = 2, DIRECTION_Z = 3;
     private Camera camera;
-
     private View fromView;
-
     private View toView;
-
     private final float centerX;
-
     private final float centerY;
-
     private boolean forward = true;
-
     private boolean visibilitySwapped;
-
     private int rotationDirection = DIRECTION_X;
-
     private int translateDirection = DIRECTION_Z;
 
     /**
@@ -128,10 +119,8 @@ public class FlipAnimator extends Animation {
         else {
         	camera.rotateX(degrees);
         }
-        
         camera.getMatrix(matrix);
         camera.restore();
-
         matrix.preTranslate(-centerX, -centerY);
         matrix.postTranslate(centerX, centerY);
     }
