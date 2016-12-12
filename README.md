@@ -145,7 +145,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.hkm.ui:creditcard-view:2.0.2'
+    compile 'com.hkm.ui:creditcard-view:2.0.3'
 }
 ```
 - Add the following activity to your AndroidManifest.xml
