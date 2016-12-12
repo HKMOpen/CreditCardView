@@ -1,4 +1,6 @@
 # CreditCardView
+[ ![Download](https://api.bintray.com/packages/jjhesk/maven/creditcard-view/images/download.svg) ](https://bintray.com/jjhesk/maven/creditcard-view/_latestVersion)
+
 
 Intro
 ------
