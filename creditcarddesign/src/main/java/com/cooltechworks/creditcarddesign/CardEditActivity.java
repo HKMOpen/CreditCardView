@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.cooltechworks.creditcarddesign.pager.CardFragmentAdapter;
 import com.cooltechworks.creditcarddesign.pager.CardFragmentAdapter.ICardEntryCompleteListener;
+import com.hkmui.ccdesign.R;
 
 import static com.cooltechworks.creditcarddesign.CreditCardUtils.EXTRA_CARD_CVV;
 import static com.cooltechworks.creditcarddesign.CreditCardUtils.EXTRA_CARD_EXPIRY;

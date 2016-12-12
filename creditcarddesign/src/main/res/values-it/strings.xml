@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="previous">PRECEDENTE</string>
+    <string name="next">IL PROSSIMO</string>
+    <string name="name_on_card">NOME SULLA CARTA</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="expiry">SCADENZA</string>
+    <string name="error_invalid_month">mese non valido</string>
+    <string name="error_card_expired">Scheda scaduto</string>
+    <string name="done">FATTO</string>
+    <string name="card_number">NUMERO DI CARTA</string>
+    <string name="card_mm_yy">MM/YY</string>
+    <string name="card_holder_name_sample">Leonardo da Vinci</string>
+    <string name="card_holder">PORTA CARTE</string>
+    <string name="card_expiry">SCHEDA DI SCADENZA</string>
+</resources>

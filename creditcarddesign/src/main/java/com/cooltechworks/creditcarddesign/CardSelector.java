@@ -1,5 +1,7 @@
 package com.cooltechworks.creditcarddesign;
 
+import com.hkmui.ccdesign.R;
+
 /**
  * Created by Harish on 01/01/16.
  */

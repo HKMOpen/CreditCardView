@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <color name="green_continue">#1fc055</color>
     <color name="chip_color">#d4edfa</color>
     <color name="chip_inner_color">#e0e4e4</color>
@@ -25,7 +24,7 @@
     <color name="brown_color">#800000</color>
     <color name="brown_color_gradient">#A52A2A</color>
 
-
-
+    <color name="gold_1">#ffe030</color>
+    <color name="gold_2">#cb9f2f</color>
 
 </resources>

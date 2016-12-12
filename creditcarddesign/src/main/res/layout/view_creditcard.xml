@@ -23,7 +23,6 @@
             android:visibility="gone"/>
 
 
-
     </io.codetail.widget.RevealLinearLayout>
 
     <io.codetail.widget.RevealLinearLayout

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="previous">前</string>
+    <string name="next">次の</string>
+    <string name="name_on_card">カードの名義</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="expiry">満期</string>
+    <string name="error_invalid_month">無効月</string>
+    <string name="error_card_expired">カードの有効期限が切れています</string>
+    <string name="done">完全な</string>
+    <string name="card_number">カードの番号</string>
+    <string name="card_mm_yy">MM/YY</string>
+    <string name="card_holder_name_sample">初音ミク</string>
+    <string name="card_holder">カード保有者</string>
+    <string name="card_expiry">満期</string>
+</resources>

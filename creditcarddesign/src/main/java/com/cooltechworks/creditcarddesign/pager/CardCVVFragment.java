@@ -7,7 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import com.cooltechworks.creditcarddesign.R;
+
+import com.hkmui.ccdesign.R;
 
 import static com.cooltechworks.creditcarddesign.CreditCardUtils.EXTRA_CARD_CVV;
 import static com.cooltechworks.creditcarddesign.CreditCardUtils.EXTRA_CARD_EXPIRY;
@@ -46,17 +47,14 @@ public class CardCVVFragment extends CreditCardFragment  {
 
     @Override
     public void afterTextChanged(Editable s) {
-
         onEdit(s.toString());
         if(s.length() == 3) {
             onComplete();
         }
-
     }
 
     @Override
     public void focus() {
-
         if(isAdded()) {
             mCardCVVView.selectAll();
         }

@@ -8,7 +8,8 @@ android {
         minSdkVersion 10
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0.2"
+        versionName "2.0.2"
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -22,7 +23,12 @@ dependencies {
     final SUPPORT_LIBRARY_VERSION = '25.0.0'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
     compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
     compile "com.android.support:cardview-v7:$SUPPORT_LIBRARY_VERSION"
     compile 'com.github.ozodrukh:CircularReveal:1.0.5'
+   // compile 'com.github.kenglxn.QRGen:javase:2.2.0'
+    compile 'com.github.kenglxn.QRGen:android:2.2.0'
 }
+
+apply from: 'bintray_3_4.gradle'

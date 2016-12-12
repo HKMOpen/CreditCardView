@@ -12,8 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="36dp"
         android:background="@android:color/black"
-        android:layout_marginTop="15dp"
-        />
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:id="@+id/back_card_cvv"
@@ -25,8 +24,7 @@
         android:textColor="@android:color/black"
         tools:text="522"
         android:gravity="center|right"
-        android:paddingRight="12dp"
-        />
+        android:paddingRight="12dp" />
 
     <ImageView
         android:id="@+id/logo_img"
@@ -35,7 +33,6 @@
         android:src="@drawable/ic_billing_mastercard_logo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="16dp"
-        />
+        android:layout_marginRight="16dp" />
 
 </RelativeLayout>

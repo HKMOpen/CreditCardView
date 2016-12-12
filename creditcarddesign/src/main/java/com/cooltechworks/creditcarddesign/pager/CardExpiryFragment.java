@@ -7,7 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import com.cooltechworks.creditcarddesign.CreditCardUtils;
-import com.cooltechworks.creditcarddesign.R;
+import com.hkmui.ccdesign.R;
+
 
 import java.util.Calendar;
 

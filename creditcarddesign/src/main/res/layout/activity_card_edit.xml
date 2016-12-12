@@ -21,28 +21,23 @@
             <com.cooltechworks.creditcarddesign.CreditCardView
                 android:id="@+id/credit_card_view"
                 android:layout_width="wrap_content"
-                android:layout_gravity="center"
                 android:layout_height="wrap_content"
-
-                />
+                android:layout_gravity="center" />
 
             <android.support.v4.view.ViewPager
                 android:id="@+id/card_field_container_pager"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:orientation="horizontal"
-                >
-
-            </android.support.v4.view.ViewPager>
-
-
+                android:orientation="horizontal" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/buttonlayoutcolor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginTop="@dimen/margin_small"
+            android:background="@color/green_continue"
             android:orientation="horizontal">
 
             <TextView
@@ -50,28 +45,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/green_continue"
                 android:gravity="center"
                 android:padding="@dimen/padding_normal"
                 android:text="@string/previous"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_small"
-
-                />
+                android:textSize="@dimen/text_size_small" />
 
             <TextView
                 android:id="@+id/next"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/green_continue"
                 android:gravity="center"
                 android:padding="@dimen/padding_normal"
                 android:text="@string/next"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_small"
+                android:textSize="@dimen/text_size_small" />
 
-                />
         </LinearLayout>
 
 

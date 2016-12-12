@@ -9,5 +9,4 @@
         android:width="4dp"
         android:color="@color/chip_inner_color" />
 
-
 </shape>

@@ -1,4 +1,4 @@
-package com.cooltechworks.creditcarddesign.sample;
+package com.hkmui.ccdesign.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.cooltechworks.checkoutflow.R;
-import com.cooltechworks.creditcarddesign.CardEditActivity;
-import com.cooltechworks.creditcarddesign.CreditCardUtils;
-import com.cooltechworks.creditcarddesign.CreditCardView;
+import com.hkmui.ccdesign.CardEditActivity;
+import com.hkmui.ccdesign.CreditCardUtils;
+import com.hkmui.ccdesign.CreditCardView;
 
 public class MainActivity extends AppCompatActivity {
 

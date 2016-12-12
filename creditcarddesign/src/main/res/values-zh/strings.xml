@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_expiry">到期</string>
+    <string name="card_holder">持卡人</string>
+    <string name="card_holder_name_sample">李小星</string>
+    <string name="card_mm_yy">MM/YY</string>
+    <string name="card_number">卡號</string>
+    <string name="done">完成</string>
+    <string name="error_card_expired">卡已過期</string>
+    <string name="error_invalid_month">月份無效</string>
+    <string name="expiry">到期</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="name_on_card">卡片上的名字</string>
+    <string name="next">下一步</string>
+    <string name="previous">上一步</string>
+</resources>

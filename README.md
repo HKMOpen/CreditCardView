@@ -1,6 +1,5 @@
 # CreditCardView
 
-
 Intro
 ------
 
@@ -18,13 +17,35 @@ CreditCardView is a rich UX custom view to accomodate Credit Cards / Debit Cards
 
 (GIF from - <https://dribbble.com/shots/2177105-Checkout-Flow-Card> )
 
+Supports multiple formats
+--------------------------
+* MasterCard
+* VISA
+* Discovery
+* American Express
+* UNIONPAY
+* JCB
+* DINER CLUB INTERNATIONAL
+* Maestro
+* Bitcoin
 
+Localizations
+--------------------------
+* International English
+* Chinese Traditional
+* Chinese Simplifed
+* French
+* Brazilian
+* Japanese
+* Italian
+* German
+* Korean
 
 Creating a CreditCardView
 --------------------------
 ##### XML
 ```xml
-<com.cooltechworks.creditcarddesign.CreditCardView
+<com.hkmui.ccdesign.CreditCardView
           android:id="@+id/card_5"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -38,9 +59,7 @@ Creating a CreditCardView
 ##### JAVA
 
 ```java
-
    CreditCardView creditCardView = new CreditCardView(getContext());
-   
    String name = "HARISH SRIDHARAN";
    String cvv = "522";
    String expiry = "01/17";
@@ -78,7 +97,7 @@ public void onActivityResult(int reqCode, int resultCode, Intent data) {
                 String cardNumber = data.getStringExtra(CreditCardUtils.EXTRA_CARD_NUMBER);
                 String expiry = data.getStringExtra(CreditCardUtils.EXTRA_CARD_EXPIRY);
                 String cvv = data.getStringExtra(CreditCardUtils.EXTRA_CARD_CVV);
-          
+
                 // Your processing goes here.
 
             }
@@ -118,19 +137,20 @@ Adding to your project
 ```gradle
 repositories {
     jcenter()
-    maven { url "https://jitpack.io" }
+    maven { url 'http://dl.bintray.com/jjhesk/maven/' }
 }
 
 dependencies {
-    compile 'com.github.cooltechworks:CreditCardView:v1.0.2'
+    compile 'com.hkm.ui:creditcard-view:2.0.2'
 }
 ```
 - Add the following activity to your AndroidManifest.xml
 
 ```xml
- <activity android:name="com.cooltechworks.creditcarddesign.CardEditActivity"
-            android:screenOrientation="portrait"
-            />
+ <activity
+  android:name="com.hkmui.ccdesign.CardEditActivity"
+  android:screenOrientation="portrait"
+ />
 ```
 
 Design Credits
@@ -152,7 +172,7 @@ Acknowledgements
 License
 --------
 ```
-Copyright 2016 Harish Sridharan
+Copyright 2016 Harish Sridharan, Hesk
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
