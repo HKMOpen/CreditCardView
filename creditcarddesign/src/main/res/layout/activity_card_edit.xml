@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.cooltechworks.creditcarddesign.CreditCardView
+            <com.hkmui.ccdesign.CreditCardView
                 android:id="@+id/credit_card_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

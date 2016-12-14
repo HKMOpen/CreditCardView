@@ -1,5 +1,7 @@
 package com.hkmui.ccdesign.tool;
 
+import android.support.design.widget.Snackbar;
+
 import com.hkmui.ccdesign.CardSelector;
 import com.hkmui.ccdesign.R;
 
@@ -61,5 +63,26 @@ public enum CardType {
 
     public CardSelector getCardFace() {
         return cardFace;
+    }
+
+
+    public static int getCardTypeImageByCardNum(String cardNumber) {
+        if (CardType.AMEX.isMatched(cardNumber)) {
+            return CardType.AMEX.getCardFace().getResLogoId();
+        } else if (CardType.VISA.isMatched(cardNumber)) {
+            return CardType.VISA.getCardFace().getResLogoId();
+        } else if (CardType.MASTER.isMatched(cardNumber)) {
+            return CardType.MASTER.getCardFace().getResLogoId();
+        } else if (CardType.UNIONPAY.isMatched(cardNumber)) {
+            return CardType.UNIONPAY.getCardFace().getResLogoId();
+        } else if (CardType.DISC.isMatched(cardNumber)) {
+            return CardType.DISC.getCardFace().getResLogoId();
+        } else if (CardType.JCB.isMatched(cardNumber)) {
+            return CardType.JCB.getCardFace().getResLogoId();
+        } else if (CardType.BITCOIN.isMatched(cardNumber)) {
+            return CardType.BITCOIN.getCardFace().getResLogoId();
+        } else {
+            return 0;
+        }
     }
 }

@@ -1,4 +1,4 @@
-package com.hkmui.ccdesign.sample;
+package com.cooltechworks.creditcarddesign.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
