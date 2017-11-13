@@ -173,6 +173,9 @@ Acknowledgements
 
 <img src='https://camo.githubusercontent.com/34d3793e2e1c9d3def671d01704a2474c6dc103c/687474703a2f2f692e67697068792e636f6d2f336f726e6a514c4439354f737034716c6d382e676966'  />
 
+### Thank you for your support and we will bring more amazing libraries to your productive works. We are accepting bitcoin by the address as below. Please scan the QR code to start
+![wallet](http://s32.postimg.org/sdd1oio1t/qrwallet.jpg)
+
 License
 --------
 ```
